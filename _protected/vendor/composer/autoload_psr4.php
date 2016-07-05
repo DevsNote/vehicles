@@ -7,6 +7,7 @@ $baseDir = dirname(dirname($vendorDir));
 
 return array(
     'yii\\swiftmailer\\' => array($vendorDir . '/yiisoft/yii2-swiftmailer'),
+    'yii\\jui\\' => array($vendorDir . '/yiisoft/yii2-jui'),
     'yii\\imagine\\' => array($vendorDir . '/yiisoft/yii2-imagine'),
     'yii\\gii\\' => array($vendorDir . '/yiisoft/yii2-gii'),
     'yii\\faker\\' => array($vendorDir . '/yiisoft/yii2-faker'),
@@ -15,6 +16,7 @@ return array(
     'yii\\codeception\\' => array($vendorDir . '/yiisoft/yii2-codeception'),
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'yii2fullcalendar\\' => array($vendorDir . '/philippfrenzel/yii2fullcalendar'),
     'rmrevin\\yii\\fontawesome\\' => array($vendorDir . '/rmrevin/yii2-fontawesome'),
     'nenad\\passwordStrength\\' => array($vendorDir . '/nenad/yii2-password-strength'),
     'nenad\\' => array($vendorDir . '/nenad/yii2-widgets-base', $vendorDir . '/nenad/yii2-strength-meter'),

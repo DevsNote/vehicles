@@ -13,6 +13,12 @@ return [
         'gridview' => [
             'class' => '\kartik\grid\Module'
         ],
+        'mission' => [
+            'class' => 'backend\modules\mission\Module',
+        ],
+        'car' => [
+            'class' => 'backend\modules\car\Module',
+        ],
     ],
     'components' => [
         'assetManager' => [

@@ -27,7 +27,8 @@
         "yurkinx/yii2-image": "dev-master",
         "2amigos/yii2-date-picker-widget": "~1.0",
         "2amigos/yii2-gallery-widget": "*",
-        "mongosoft/yii2-upload-behavior": "*"
+        "mongosoft/yii2-upload-behavior": "*",
+        "philippfrenzel/yii2fullcalendar":"*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

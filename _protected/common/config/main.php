@@ -1,6 +1,6 @@
 <?php
 return [
-    'name' => 'ระบบตรวจสอบคุณภาพข้อมูล 43 แฟ้ม',
+    'name' => 'Vehicles MS',
     //'language' => 'sr',
     'language' => 'th_TH',
     'timeZone' => 'Asia/Bangkok',

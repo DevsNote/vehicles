@@ -138,15 +138,6 @@ return array (
       '@kartik/growl' => $vendorDir . '/kartik-v/yii2-widget-growl',
     ),
   ),
-  'kartik-v/yii2-widget-fileinput' => 
-  array (
-    'name' => 'kartik-v/yii2-widget-fileinput',
-    'version' => '1.0.4.0',
-    'alias' => 
-    array (
-      '@kartik/file' => $vendorDir . '/kartik-v/yii2-widget-fileinput',
-    ),
-  ),
   'kartik-v/yii2-widget-depdrop' => 
   array (
     'name' => 'kartik-v/yii2-widget-depdrop',
@@ -273,15 +264,6 @@ return array (
       '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii',
     ),
   ),
-  'kartik-v/yii2-widget-datepicker' => 
-  array (
-    'name' => 'kartik-v/yii2-widget-datepicker',
-    'version' => '1.3.9.0',
-    'alias' => 
-    array (
-      '@kartik/date' => $vendorDir . '/kartik-v/yii2-widget-datepicker',
-    ),
-  ),
   'fedemotta/yii2-widget-datatables' => 
   array (
     'name' => 'fedemotta/yii2-widget-datatables',
@@ -388,6 +370,42 @@ return array (
     'alias' => 
     array (
       '@mongosoft/file' => $vendorDir . '/mongosoft/yii2-upload-behavior',
+    ),
+  ),
+  'kartik-v/yii2-widget-datepicker' => 
+  array (
+    'name' => 'kartik-v/yii2-widget-datepicker',
+    'version' => '1.4.0.0',
+    'alias' => 
+    array (
+      '@kartik/date' => $vendorDir . '/kartik-v/yii2-widget-datepicker',
+    ),
+  ),
+  'kartik-v/yii2-widget-fileinput' => 
+  array (
+    'name' => 'kartik-v/yii2-widget-fileinput',
+    'version' => '1.0.5.0',
+    'alias' => 
+    array (
+      '@kartik/file' => $vendorDir . '/kartik-v/yii2-widget-fileinput',
+    ),
+  ),
+  'yiisoft/yii2-jui' => 
+  array (
+    'name' => 'yiisoft/yii2-jui',
+    'version' => '2.0.5.0',
+    'alias' => 
+    array (
+      '@yii/jui' => $vendorDir . '/yiisoft/yii2-jui',
+    ),
+  ),
+  'philippfrenzel/yii2fullcalendar' => 
+  array (
+    'name' => 'philippfrenzel/yii2fullcalendar',
+    'version' => '2.5.3.0',
+    'alias' => 
+    array (
+      '@yii2fullcalendar' => $vendorDir . '/philippfrenzel/yii2fullcalendar',
     ),
   ),
 );

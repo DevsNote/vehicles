@@ -66,7 +66,9 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        //return $this->render('index');
+        //return $this->redirect(Yii::$app->basePath.'/mission/default');
+        return $this->render('index', ['time' => date('H:i:s')]);
     }
 
     /**
@@ -113,4 +115,40 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+    
+    public function actionJsoncalendar($start = NULL, $end = NULL, $_ = NULL) {
+
+        Yii::$app->response->format = Response::FORMAT_JSON;
+
+        //$times = Meeting::find()->all();
+        /*
+        $Event->id = $time->id;
+            $Event->title = $time->title;
+            $Event->start = $time->date_start;
+            $Event->end = $time->date_end;
+        */
+        //$times = array();
+        //$times[] = ['id' => '1','title' => 'Test','date_start' => '2016-07-05 08:00:00','date_end'=>'2016-07-05 16:00:00'];
+       
+        $events = array();
+        $color = '#000000';
+        foreach ($times AS $time) {
+            //Testing
+            $Event = new \yii2fullcalendar\models\Event();
+            $Event->id = $time->id;
+            $Event->title = $time->title;
+            $Event->start = $time->date_start;
+            $Event->end = $time->date_end;
+            $Event->color = $color;
+            $Event->url = Url::to(['/mission/mission/view','id'=>$time->id]);
+            $events[] = $Event;
+        }
+
+        return $events;
+    }
+    
+    public function actionAutoRefresh()
+{
+    return $this->render('index', ['time' => date('H:i:s')]);
+}
 }

@@ -2761,3 +2761,248 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1467340359.634
     'REQUEST_TIME' => 1467340359
 ]
+2016-07-01 13:25:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/app.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/app.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\site\index.php:4
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 13:25:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/yii.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/yii.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\layouts\main.php:88
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 13:25:01 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.2100616992.1459139082'
+    '_csrf' => 'fd51f0c8f35c08f227389431d3a98a3884985d98bdca42606ec7a7d391234196a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vazsLouwVNklt6r0Da2JRZYfMkS-vnKt\";}'
+    'PHPSESSID' => '6k6mokbnkcnqtb17iu29lfqs44'
+    '_identity' => '6742721ff8fe88c0c32e0f2ddc92f103e66e5577257d393042d74211fa7c84f3a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"Fvgt7PTrXsvQy8aA5hrjUn0nv5XlLi-A\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'H:/WebServer/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'H:/WebServer/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.2100616992.1459139082; _csrf=fd51f0c8f35c08f227389431d3a98a3884985d98bdca42606ec7a7d391234196a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vazsLouwVNklt6r0Da2JRZYfMkS-vnKt%22%3B%7D; PHPSESSID=6k6mokbnkcnqtb17iu29lfqs44; _identity=6742721ff8fe88c0c32e0f2ddc92f103e66e5577257d393042d74211fa7c84f3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Fvgt7PTrXsvQy8aA5hrjUn0nv5XlLi-A%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;H:\\WebServer\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\SSH Communications Security\\SSH Secure Shell;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\android-sdk\\tools;C:\\android-sdk\\platform-tools;C:\\Users\\Natthaphon\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'H:/WebServer/xampp/htdocs/yii2car/index.php'
+    'REMOTE_PORT' => '59836'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2car/'
+    'SCRIPT_NAME' => '/yii2car/index.php'
+    'PHP_SELF' => '/yii2car/index.php'
+    'REQUEST_TIME_FLOAT' => 1467354301.247
+    'REQUEST_TIME' => 1467354301
+]
+2016-07-01 13:33:53 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/app.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/app.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\site\index.php:4
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 13:33:54 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/yii.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/yii.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\layouts\main.php:88
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 13:33:53 [::1][1][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.2100616992.1459139082'
+    '_csrf' => '2c2e0c04aaec4d56cbe493358fffcae79b621eb39825f497f106bdd0be4a1074a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sqUBZmmKvCQrSFGjDB68D141SBdltaf9\";}'
+    'PHPSESSID' => 'vgkf29ih2smmjpsh6msc3s3kl7'
+    '_identity' => '6742721ff8fe88c0c32e0f2ddc92f103e66e5577257d393042d74211fa7c84f3a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"Fvgt7PTrXsvQy8aA5hrjUn0nv5XlLi-A\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'H:/WebServer/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'H:/WebServer/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.2100616992.1459139082; _csrf=2c2e0c04aaec4d56cbe493358fffcae79b621eb39825f497f106bdd0be4a1074a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sqUBZmmKvCQrSFGjDB68D141SBdltaf9%22%3B%7D; PHPSESSID=vgkf29ih2smmjpsh6msc3s3kl7; _identity=6742721ff8fe88c0c32e0f2ddc92f103e66e5577257d393042d74211fa7c84f3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Fvgt7PTrXsvQy8aA5hrjUn0nv5XlLi-A%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;H:\\WebServer\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\SSH Communications Security\\SSH Secure Shell;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\android-sdk\\tools;C:\\android-sdk\\platform-tools;C:\\Users\\Natthaphon\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'H:/WebServer/xampp/htdocs/yii2car/index.php'
+    'REMOTE_PORT' => '60093'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2car/'
+    'SCRIPT_NAME' => '/yii2car/index.php'
+    'PHP_SELF' => '/yii2car/index.php'
+    'REQUEST_TIME_FLOAT' => 1467354833.67
+    'REQUEST_TIME' => 1467354833
+]
+2016-07-01 14:23:05 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/app.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/app.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\site\index.php:4
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 14:23:05 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/yii.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/yii.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\layouts\main.php:88
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 14:23:05 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.2100616992.1459139082'
+    '_csrf' => '994fb6af25e32965b3b9740f6569031fd5dc461a28a727adaf332b85f989a898a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EDOCkWCA3CN8bu0DbzRPd6E8plMeHbNn\";}'
+    'PHPSESSID' => 'qc9b1q45vglomp8vbqt3t16d90'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2car/backend/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'H:/WebServer/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'H:/WebServer/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.2100616992.1459139082; _csrf=994fb6af25e32965b3b9740f6569031fd5dc461a28a727adaf332b85f989a898a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EDOCkWCA3CN8bu0DbzRPd6E8plMeHbNn%22%3B%7D; PHPSESSID=qc9b1q45vglomp8vbqt3t16d90'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;H:\\WebServer\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\SSH Communications Security\\SSH Secure Shell;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\android-sdk\\tools;C:\\android-sdk\\platform-tools;C:\\Users\\Natthaphon\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'H:/WebServer/xampp/htdocs/yii2car/index.php'
+    'REMOTE_PORT' => '61151'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2car/'
+    'SCRIPT_NAME' => '/yii2car/index.php'
+    'PHP_SELF' => '/yii2car/index.php'
+    'REQUEST_TIME_FLOAT' => 1467357785.119
+    'REQUEST_TIME' => 1467357785
+]
+2016-07-01 14:23:58 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/app.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/app.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\site\index.php:4
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 14:23:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th_TH/yii.php Fallback file does not exist as well: H:\WebServer\xampp\htdocs\yii2car\_protected\common/translations/th/yii.php
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\views\layouts\main.php:88
+    in H:\WebServer\xampp\htdocs\yii2car\_protected\frontend\controllers\SiteController.php:89
+2016-07-01 14:23:58 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.2100616992.1459139082'
+    '_csrf' => 'c8688fc8164cf3cb1b08967ee0b5f906a13dfe12e70d2fbcd7e99b2e3f3535e6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"e6ROgAqV3qScw6hCcb8PSJiuuWyuSwpb\";}'
+    'PHPSESSID' => 'ber5ujr0ms37h09l3e4cnd9f97'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2car/backend/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'H:/WebServer/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'H:/WebServer/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.2100616992.1459139082; _csrf=c8688fc8164cf3cb1b08967ee0b5f906a13dfe12e70d2fbcd7e99b2e3f3535e6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e6ROgAqV3qScw6hCcb8PSJiuuWyuSwpb%22%3B%7D; PHPSESSID=ber5ujr0ms37h09l3e4cnd9f97'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;H:\\WebServer\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\SSH Communications Security\\SSH Secure Shell;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\android-sdk\\tools;C:\\android-sdk\\platform-tools;C:\\Users\\Natthaphon\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/WebServer/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'H:/WebServer/xampp/htdocs/yii2car/index.php'
+    'REMOTE_PORT' => '61186'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2car/'
+    'SCRIPT_NAME' => '/yii2car/index.php'
+    'PHP_SELF' => '/yii2car/index.php'
+    'REQUEST_TIME_FLOAT' => 1467357838.748
+    'REQUEST_TIME' => 1467357838
+]
